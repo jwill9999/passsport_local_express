@@ -1,0 +1,31 @@
+{
+  "name": "passport local",
+  "version": "1.0.0",
+  "description": "Express,Passport-local,Connect-Flash,Express-Validator",
+  "author": "Jason Williams",
+  "email": "jwill9999@icloud.com",
+  "main": "./app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "git": "https://github.com/escapeimagery/Passport-Local.git"
+  },  
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.14.0",
+    "express-validator": "^2.20.8",
+    "mongoose": "^4.5.5",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-beta4"
+  }
+}

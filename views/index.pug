@@ -1,0 +1,162 @@
+extends layout
+
+block content
+    include ./partials/navbarmain.pug
+    body
+    // Header
+    a(name='#')
+    .intro-header
+      .container
+        .row
+          .col-lg-12
+            .intro-message
+              h1 Passport-Local Example
+              h3 A Passport Locals example using Express Jade and Server side verification.
+              hr.intro-divider
+              ul.list-inline.intro-social-buttons
+                li
+                  a.btn.btn-default.btn-lg(href='#')
+                    i.fa.fa-twitter.fa-fw
+                    span.network-name Twitter
+                li
+                  a.btn.btn-default.btn-lg(href='https://github.com/escapeimagery/passport-local-express')
+                    i.fa.fa-github.fa-fw
+                    span.network-name Github
+                li
+                  a.btn.btn-default.btn-lg(href='#') 
+                    i.fa.fa-linkedin.fa-fw
+                    span.network-name Linkedin
+                li
+                  a.btn.btn-default.btn-lg(href='/signup')
+                    i.fa.fa-eye.fa-fw
+                    span.network-name Example               
+      // /.container
+    // /.intro-header
+    .container
+          .col-lg-6.col-md-offset-3.text-center
+            i.fa.fa-caret-down.fa-5x    
+    // Page Content    
+    a(name='framework')
+    .content-section-a
+      br
+      br  
+      .container
+        .row
+          .col-lg-5.col-sm-6
+            hr.section-heading-spacer
+            .clearfix
+            h2.section-heading
+              | Expressjs
+              br
+              | nodejs framework
+            p.lead
+              a(target='_blank', href='http://expressjs.com/') Expressjs 
+              |  is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+          .col-lg-5.col-lg-offset-2.col-sm-6
+            img.img-responsive(src='/img/expressjs.png', alt='express . js logo image')
+      // /.container
+    // /.content-section-a
+    .content-section-b
+      .container
+        .row
+          .col-lg-5.col-lg-offset-1.col-sm-push-6.col-sm-6
+            hr.section-heading-spacer
+            .clearfix
+            h2.section-heading
+              | Mongoosejs 
+              br
+              | for Mongodb database
+            p.lead
+              a(target='_blank', href='http://www.mongoosejs.com/') Mongoose
+              |  provides a straight-forward, schema-based solution to model your application data. It includes built-in type casting, validation, query building, business logic hooks and more, out of the box.
+          .col-lg-5.col-sm-pull-6.col-sm-6
+            img.img-responsive(src='img/mongoosejs.png', alt='mongoose . js logo image')
+      // /.container
+    // /.content-section-b
+    a(name='Middlewear')
+    .content-section-a
+      br
+      br
+      br
+      br  
+      br
+      .container
+        .row
+          .col-lg-5.col-sm-6
+            hr.section-heading-spacer
+            .clearfix
+            h2.section-heading
+              | Passportjs
+              br
+              | local strategy 
+            p.lead 
+              a(target='_blank', href='http://passportjs.org/') Passportjs
+              |  is authentication middleware for Node.js. Extremely flexible and modular, Passport can be unobtrusively dropped in to any Express-based web application. A comprehensive set of strategies support authentication using a username and password, Facebook, Twitter, and more. 
+          .col-lg-5.col-lg-offset-2.col-sm-6
+            img.img-responsive(src='img/passportjs.png', alt='passport . js logo image')
+      // /.container
+    // /.content-section-a
+    .content-section-b
+      .container
+        .row
+          .col-lg-5.col-lg-offset-1.col-sm-push-6.col-sm-6
+            hr.section-heading-spacer
+            .clearfix
+            h2.section-heading
+              | Express-Validator
+              br
+              | Connect-flash
+            p.lead
+              a(target='_blank', href='https://github.com/jaredhanson/connect-flash') Connect-Flash
+              |  displays Flash messages. The flash is typically used in combination with redirects, ensuring that the message is available to the next page that is to be rendered.
+              br
+              a(target='_blank', href='https://github.com/ctavan/express-validator') Express-Validator
+              |  is an expressjs middlewear for server side validation of forms and other data POST entries.
+          .col-lg-5.col-sm-pull-6.col-sm-6
+            img.img-responsive(src='img/flash.png', alt='connect flash and express Validator image')
+      // /.container
+    // /.content-section-b
+    a(name='contact')
+    .banner
+      .container
+        .row
+          .col-lg-6
+            h2                  
+                |  Help with Passport Local
+          .col-lg-6
+            ul.list-inline.banner-social-buttons.pull-left
+              li
+                a.btn.btn-default.btn-lg(href='#')
+                  i.fa.fa-twitter.fa-fw
+                  span.network-name Twitter
+              li
+                a.btn.btn-default.btn-lg(href='https://github.com/escapeimagery/passport-local-express')
+                  i.fa.fa-github.fa-fw
+                  span.network-name Github
+              li
+                a.btn.btn-default.btn-lg(href='#')
+                  i.fa.fa-linkedin.fa-fw
+                  span.network-name Linkedin
+      // /.container
+    // /.banner
+    footer
+      .container
+        .row
+          .col-lg-12
+            ul.list-inline
+              li
+                a(href='/') Home
+              li.footer-menu-divider 
+              li
+                a(href='/login') Login
+              li.footer-menu-divider 
+              li
+                a(href='/signup') Signup
+              li.footer-menu-divider 
+              li
+                a(href='/signup') Contact
+              li.footer-menu-divider 
+            p.copyright.text-muted.small Copyright © Jason Williams 2016. All Rights Reserved
+   
+
+        

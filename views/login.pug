@@ -1,0 +1,33 @@
+extends layout
+
+block content
+    include ./partials/indexNav.pug  
+    include ./partials/validationErrors.pug   
+    include ./partials/flashMessages.pug
+    .container
+         .row
+            .col-md-6.col-md-offset-3
+                br
+                br
+                h1
+                    span
+                        |  Login
+                        br
+                        br
+                form(action='/login', method='post')
+                    .form-group
+                        label Username 
+                        input.form-control(type='text', name='username', placeholder='Enter Username', required)
+                    .form-group
+                        label Password
+                        input.form-control(type='password', name='password', placeholder='Enter Password', required)
+                        br
+                    button.btn.btn-success.btn-lg(type='submit') Login
+                    hr
+                    p
+                    | Need an account? 
+                    a(href='/signup') Signup
+                    p
+                    | Or go 
+                    a(href='/') home
+                    | .
