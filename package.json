@@ -1,8 +1,9 @@
 {
   "name": "passport local",
   "version": "1.0.0",
-  "description": "Express,Passport-local,Connect-Flash,Express-Validator",
+  "description": "Express,Passport-local,Connect-Flash,Express-Validator, bcryptjs Password encryption",
   "author": "Jason Williams",
+  "keywords": ["bcryptjs","passport","connect-flash","express-validator","passport-local"],
   "email": "jwill9999@icloud.com",
   "main": "./app.js",
   "scripts": {
@@ -10,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "git": "https://github.com/escapeimagery/Passport-Local.git"
+    "git": "https://github.com/escapeimagery/Passport-Local-express.git"
   },  
   "license": "ISC",
   "dependencies": {
