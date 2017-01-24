@@ -1,5 +1,5 @@
 {
-  "name": "passport local",
+  "name": "passport-local-express",
   "version": "1.0.0",
   "description": "Express,Passport-local,Connect-Flash,Express-Validator, bcryptjs Password encryption",
   "author": "Jason Williams",
