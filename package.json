@@ -2,9 +2,17 @@
   "name": "passport-local-express",
   "version": "1.0.0",
   "description": "Express,Passport-local,Connect-Flash,Express-Validator, bcryptjs Password encryption",
-  "author": "Jason Williams",
-  "keywords": ["bcryptjs","passport","connect-flash","express-validator","passport-local"],
-  "email": "jwill9999@icloud.com",
+  "author": {
+    "name": "Jason Williams",
+    "email": "jwill9999@icloud.com"
+  },
+ "keywords": [
+   "bcryptjs",
+   "passport",
+   "connect-flash",
+   "express-validator",
+   "passport-local"
+ ],
   "main": "./app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
